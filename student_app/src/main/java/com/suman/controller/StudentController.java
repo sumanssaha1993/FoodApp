@@ -18,6 +18,7 @@ public class StudentController {
 
 	@Autowired
 	private StudentService service;
+	//String x = "";
 	
 	@RequestMapping(value = "/getname/{id}", method = RequestMethod.POST)
 	public List<String> getStudent(@PathVariable("id") String id){
